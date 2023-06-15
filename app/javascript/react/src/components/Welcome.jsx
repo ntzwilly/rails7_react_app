@@ -13,6 +13,10 @@ const Welcome = () => {
 
 const container = document.getElementById('welcome');
 const root = createRoot(container);
-root.render(<Welcome />);
+root.render(
+  <React.StrictMode>
+    <Welcome />
+  </React.StrictMode>
+);
 
 export default Welcome;
