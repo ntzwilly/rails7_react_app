@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 
 class QuestionDetail extends React.Component {
-  // const[likeCount, setLikeCount] = useState(0);
   constructor(props) {
     super(props)
     this.state = { 
@@ -45,7 +44,7 @@ class QuestionDetail extends React.Component {
             }
           </button>      
           <button type="button" 
-                  className="btn btn-primary position-relative"
+                  className="btn btn-warning position-relative"
                   onClick={this.handleDislike}
           >
             Dislike
